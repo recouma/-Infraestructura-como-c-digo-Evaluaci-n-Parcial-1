@@ -1,0 +1,22 @@
+# Copia este archivo a "terraform.tfvars" y ajusta si quieres cambiar defaults.
+# ¡No subas "terraform.tfvars" real al repo!
+
+project_name       = "dtapia-queso"
+node_name_prefix   = "quesotapia"
+region             = "us-east-1"
+instance_type      = "t2.micro"
+
+# Abre SSH 22 a tu IP (false por defecto)
+allow_ssh          = false
+# Para forzar un CIDR específico (si dejas "", usa tu IP pública)
+ssh_cidr_override  = ""
+
+# Diagnóstico: abrir HTTP 80 a tu IP directamente contra EC2 (mejor en false)
+diag_open_http     = false
+
+# Puedes cambiar las imágenes si quieres
+docker_images = [
+  "errm/cheese:wensleydale",
+  "errm/cheese:cheddar",
+  "errm/cheese:stilton"
+]
