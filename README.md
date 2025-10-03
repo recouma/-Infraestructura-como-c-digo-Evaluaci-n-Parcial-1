@@ -61,4 +61,6 @@ terraform apply -auto-approve -var "diag_open_http=false"
 terraform destroy -auto-approve
 ```
 
-**Autor:** dtapia
+**Autor:** Daniel Tapia
+**Ramo:** INFRAESTRUCTURA COMO CODIGO I_001V
+**Profe:**RODRIGO HORACIO AGUILAR GONZALEZ
