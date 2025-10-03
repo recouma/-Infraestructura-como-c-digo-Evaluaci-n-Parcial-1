@@ -1,4 +1,4 @@
-# Infra – dtapia / quesotapia (Eval 1)
+# Infra – dtapia / quesostapia (Eval 1)
 
 Infra mínima en AWS con **3 EC2** detrás de un **Application Load Balancer (ALB)**.
 - Health check del ALB: `HTTP /` con `matcher = 200–399`
